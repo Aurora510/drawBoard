@@ -1,0 +1,37 @@
+*{
+    padding:0;
+    border:0;
+    margin:0;
+}
+ul{
+    list-style-type: none;
+}
+#drawBoard{
+    padding:8px;
+}
+#canvas{
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px 1px rgba(92, 3, 3, 0.5);
+}
+.controler{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:20px 0;
+}
+.controler input{
+    padding:6px 15px;
+    border-radius: 10px;
+    margin:10px;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0,.4);
+    outline: none;
+}
+.controler input:hover{
+    box-shadow: 0px 2px 2px 1.5px rgba(0, 0, 0,.5);
+}
+.controler #rangeSpan{
+    display: inline-block;
+    width:30px;
+    vertical-align: 50%;
+}
